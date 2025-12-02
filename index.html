@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kystnær - Håndlavet sæbe fra den danske kyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Topbar med slider -->
+    <div class="topbar" id="topbar">
+        <button class="arrow arrow-left" onclick="previousSlide()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        
+        <div class="topbar-slider">
+            <div class="topbar-slide active">Fri fragt i 6100 ved køb over 149,-</div>
+            <div class="topbar-slide">Fri fragt til DAO Pakkeshop ved køb over 499,-</div>
+        </div>
+        
+        <button class="arrow arrow-right" onclick="nextSlide()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Header -->
+    <header class="transparent-header">
+        <div class="logo">Kystnær</div>
+
+        <nav>
+            <a href="#">Shop</a>
+            <a href="#">Serier</a>
+            <a href="#">Forkælelsespakker</a>
+            <a href="#">Brands</a>
+            <a href="#">Om Kystnær</a>
+            <a href="#">Blog & Guides</a>
+            <a href="#">Kontakt</a>
+        </nav>
+
+        <div class="icons">
+            <span class="icon">🛒</span>
+            <span class="icon">🔍</span>
+        </div>
+    </header>
+    
+    <!-- Testimonials Hero -->
+    <section class="testimonials-hero">
+        <div class="testimonial-slide">
+            <p class="testimonial-quote">"Det betyder uendeligt meget for mig at vide, at noget jeg har stået og lavet med mine egne hænder, nu giver glæde og effekt hjemme hos andre."</p>
+            <p class="testimonial-author">– Mette Raun Hollesen, Founder</p>
+        </div>
+    </section>
+
+    <!-- Trustpilot Reviews Section -->
+<section class="trustpilot-section">
+    <div class="trustpilot-container">
+        <div class="trustpilot-header">
+            <h2>4,9 stjerner på Trustpilot</h2>
+            <p>Mere end 285 anmeldelser - læs dem <a href="#" class="trustpilot-link">her</a></p>
+        </div>
+
+        <div class="reviews-grid">
+            <!-- Stor anmeldelse i midten -->
+            <div class="review-card review-large">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Deres shampoobarer er virkelig gode. Rosmarinbaren har virkelig gjort meget godt for mit tynde og fine hår, som har fået mere styrke og fylde. Er blevet en fast kunde."</p>
+                <p class="review-author">- Birgitte</p>
+            </div>
+
+            <!-- Mindre anmeldelse til venstre -->
+            <div class="review-card review-small">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Jeg har nu brugt min ene shampoobar fra Kystnær i et godt stykke tid. Det er den bedste shampoobar, jeg har prøvet. Den er super nem at arbejde med, man skal ikke kæmpe for at sæbe håret ind og alligevel holder den enormt længe. Jeg er knap halvvejs med min bar og jeg har brugt den i mange måneder efterhånden (jeg er langhåret)."</p>
+                <p class="review-author">- Anette</p>
+            </div>
+
+            <!-- Mindre anmeldelse til højre -->
+            <div class="review-card review-small">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Skønne produkter og altid levering til tiden. Har brugt shampoo og balsam bar/ hårkur samt lidt forskellige sæber i 1 1/2 år. Har ikke brugt andet til mit lange hår. Savner virkelig IKKE flydende produkter som er "pakket" ind i plastemballage. 10 stjerner til kystnær herfra"</p>
+                <p class="review-author">- Tina</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Founder Section -->
+    <section class="founder-section">
+        <img src="billeder/founder.jpg" alt="Mette Raun Hollesen" class="founder-image">
+        <div class="founder-text">
+            <h2>Fra Mette til dig</h2>
+            <p>"Du får effektiv pleje, der forkæler dig og samtidig passer på naturen, som vi elsker. Vores håndlavede sæber, shampoo og balsam i fast form er inspireret af kysten, hvor jeg selv bor – og fyldt med lokale råvarer som tang, hyben og havtorn."</p>
+            <p class="signature">– Kærligst, Mette</p>
+            <a href="/pages/om-kystnaer" class="btn">Læs mere</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2 class="section-title">Bestsellers</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="billeder/loofah-holder.jpg" alt="Loofah sæbeholder" class="product-image">
+                <h3 class="product-title">Loofah sæbeholder</h3>
+                <p class="product-price">45,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/shampoo-havtorn.jpg" alt="Shampoo bar med Havtorn" class="product-image">
+                <h3 class="product-title">Shampoo bar med Havtorn</h3>
+                <p class="product-price">145,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/shampoo-aktivt-kul.jpg" alt="Shampoo bar med Aktivt kul" class="product-image">
+                <h3 class="product-title">Shampoo bar med Aktivt kul</h3>
+                <p class="product-price">145,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/rejsebeholder.jpg" alt="Rejsebeholder - Stor" class="product-image">
+                <h3 class="product-title">Rejsebeholder - Stor</h3>
+                <p class="product-price">55,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/balsam-havtorn.jpg" alt="Balsam bar med Havtorn" class="product-image">
+                <h3 class="product-title">Balsam bar med Havtorn</h3>
+                <p class="product-price">140,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/saebe-havtorn.jpg" alt="Sæbe bar med Havtorn" class="product-image">
+                <h3 class="product-title">Sæbe bar med Havtorn</h3>
+                <p class="product-price">75,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/shampoo-hyben.jpg" alt="Shampoo bar med Hyben" class="product-image">
+                <h3 class="product-title">Shampoo bar med Hyben</h3>
+                <p class="product-price">145,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/saebe-hyben.jpg" alt="Sæbe bar med Hyben" class="product-image">
+                <h3 class="product-title">Sæbe bar med Hyben</h3>
+                <p class="product-price">75,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/shampoo-tang.jpg" alt="Shampoo bar med Tang" class="product-image">
+                <h3 class="product-title">Shampoo bar med Tang</h3>
+                <p class="product-price">145,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/shampoo-rosmarin.jpg" alt="Shampoo bar med Rosmarin" class="product-image">
+                <h3 class="product-title">Shampoo bar med Rosmarin</h3>
+                <p class="product-price">145,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/saebe-tang.jpg" alt="Sæbe bar med Tang" class="product-image">
+                <h3 class="product-title">Sæbe bar med Tang</h3>
+                <p class="product-price">75,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/balsam-hyben.jpg" alt="Balsam bar med Hyben" class="product-image">
+                <h3 class="product-title">Balsam bar med Hyben</h3>
+                <p class="product-price">140,00 DKK</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="ingredients-section">
+        <div class="ingredients-text">
+            <h2>Naturens ingredienser</h2>
+            <p>Vores plejeprodukter indeholder effektive og naturlige ingredienser fra den danske kyst – som tang, hyben og havtorn. Selv vores emballage er skabt med omtanke og fyldt med dansk ålegræs, der kan genbruges som naturlig næring til jorden.</p>
+            <a href="/pages/om-kystnaer" class="btn">Læs mere</a>
+        </div>
+        <img src="billeder/ingredients.jpg" alt="Naturlige ingredienser" class="ingredients-image">
+    </section>
+
+    <!-- More Products -->
+    <section class="products-section">
+        <h2 class="section-title">Flere produkter</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="billeder/salt-bar.jpg" alt="Salt bar - bodyscrub med Læsø Sydesalt" class="product-image">
+                <h3 class="product-title">Salt bar - bodyscrub med Læsø Sydesalt</h3>
+                <p class="product-price">79,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/haarkur.jpg" alt="Hårkur med Tang og Ler" class="product-image">
+                <h3 class="product-title">Hårkur med Tang og Ler</h3>
+                <p class="product-price">160,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/havtorn-pakke.jpg" alt="Alt godt 'for' havet - Havtorn" class="product-image">
+                <h3 class="product-title">Alt godt "for" havet - Havtorn</h3>
+                <p class="product-price">415,00 DKK</p>
+            </div>
+            <div class="product-card">
+                <img src="billeder/ansigtsrens.jpg" alt="Ansigtsrens med Aktivt kul" class="product-image">
+                <h3 class="product-title">Ansigtsrens med Aktivt kul</h3>
+                <p class="product-price">120,00 DKK</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-hero" style="background-color: var(--color-white);">
+        <div class="testimonial-slide">
+            <p class="testimonial-quote">"Deres shampoobarer er virkelig gode. Rosmarinbaren har virkelig gjort meget godt for mit tynde og fine hår, som har fået mere styrke og fylde. Er blevet en fast kunde."</p>
+            <p class="testimonial-author">- Birgitte</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <h2 class="section-title">Blog posts</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <img src="billeder/blog-ansigtsrens.jpg" alt="Ansigtsrens med Aktivt kul" class="blog-image">
+                <p class="blog-date">27. mar. 2025</p>
+                <h3 class="blog-title">Ansigtsrens med Aktivt kul</h3>
+                <a href="/blogs/news/ansigtsrens-aktivt-kul" class="blog-link">Læs mere →</a>
+            </article>
+            <article class="blog-card">
+                <img src="billeder/blog-havblik.jpg" alt="Fra ReshapeWaste Til vores nye 'Havblik' sæbeholder" class="blog-image">
+                <p class="blog-date">14. nov. 2024</p>
+                <h3 class="blog-title">Fra ReshapeWaste Til vores nye 'Havblik' sæbeholder</h3>
+                <a href="/blogs/news/havblik-saebeholder" class="blog-link">Læs mere →</a>
+            </article>
+            <article class="blog-card">
+                <img src="billeder/blog-mewalii.jpg" alt="Mewalii hampebind" class="blog-image">
+                <p class="blog-date">11. jul. 2024</p>
+                <h3 class="blog-title">Mewalii hampebind</h3>
+                <a href="/blogs/news/mewalii-hampebind" class="blog-link">Læs mere →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kystnær</h3>
+                <p>Håndlavet sæbe fra den danske kyst</p>
+                <p>Haderslev Fjord, Danmark</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/kystnaer" aria-label="Instagram">📷</a>
+                    <a href="https://facebook.com/kystnaer" aria-label="Facebook">📘</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Produkter</h3>
+                <a href="/collections/shampoo">Shampoo bars</a>
+                <a href="/collections/balsam">Balsam bars</a>
+                <a href="/collections/saebe">Sæbe bars</a>
+                <a href="/collections/tilbehor">Tilbehør</a>
+                <a href="/collections/pakker">Pakker</a>
+            </div>
+            <div class="footer-section">
+                <h3>Information</h3>
+                <a href="/pages/om-kystnaer">Om Kystnær</a>
+                <a href="/pages/forhandlere">Forhandlere</a>
+                <a href="/blogs/news">Blog</a>
+                <a href="/policies/shipping-policy">Levering</a>
+                <a href="/policies/refund-policy">Returret</a>
+            </div>
+            <div class="footer-section">
+                <h3>Nyhedsbrev</h3>
+                <p>Tilmeld dig og få 10% rabat på din første ordre</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Din e-mail">
+                    <button type="submit">Tilmeld</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Kystnær. Alle rettigheder forbeholdes. | CVR: XXXXXXXX</p>
+        </div>
+    </footer>
+
+    <!-- Link til JavaScript -->
+    <script src="js/slider.js"></script>
+</body>
+</html>
