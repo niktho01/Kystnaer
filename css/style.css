@@ -820,6 +820,20 @@ h2 {
     cursor: pointer;
 }
 
+.btn2 {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
 .founder-text .btn,
 .ingredients-text .btn {
     align-self: flex-start;
@@ -1472,6 +1486,21 @@ footer {
 .produktside-text .btn:focus-visible {
     background-color: #0f2844;
 }
+
+.produktside-text .btn2 {
+    align-self: stretch;
+    text-align: center;
+    margin: 10px 0;
+    background-color: var(--color-secondary);
+    color: var(--color-nav-text);
+}
+
+.produktside-text .btn2:hover,
+.produktside-text .btn:focus-visible {
+    background-color: var(--color-primary);
+    color:var(--color-white);
+}
+
 
 .produktside-text h1,
 .produktside-text h2 {
